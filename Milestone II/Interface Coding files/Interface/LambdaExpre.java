@@ -78,21 +78,21 @@
 
 //  two  Parameter interface 
 
-// interface Carr 
-// {
-//     void drive (int avg, String colour);
+interface Carr 
+{
+    void drive (int avg, String colour);
     
 
-// }
+}
 
-// public class LambdaExpre {
-//     public static void main(String[] args) {
+public class LambdaExpre {
+    public static void main(String[] args) {
 
-//         // Car obj = new WagonR();
+        // Car obj = new WagonR();
 
-//         // Carr obj = (int avg) -> System.out.println("Driving...."+avg);
-//         Carr obj = (avg, colour) -> System.out.println("Driving...."+avg+" "+colour);
+        // Carr obj = (int avg) -> System.out.println("Driving...."+avg);
+        Carr obj = (avg, colour) -> System.out.println("Driving...."+avg+" "+colour);
             
-//         obj.drive(16,"white");
-//     }
-// }
+        obj.drive(16,"white");
+    }
+}
