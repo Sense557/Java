@@ -1,24 +1,24 @@
-package Interface;
+// package Interface;
 
 
 
-interface Carr 
-{
-    void drive (int avg, int ts);
+// interface Carr 
+// {
+//     void drive (int avg, int ts);
 
-}
+// }
 
-public class LambdaExpre {
-    public static void main(String[] args) {
+// public class LambdaExpre {
+//     public static void main(String[] args) {
 
-        // Car obj = new WagonR();
+//         // Car obj = new WagonR();
 
-        // Carr obj = (int avg) -> System.out.println("Driving...."+avg);
-        Carr obj = (avg, ts) -> System.out.println("Driving...."+avg+" "+ts);
+//         // Carr obj = (int avg) -> System.out.println("Driving...."+avg);
+//         Carr obj = (avg, ts) -> System.out.println("Driving...."+avg+" "+ts);
             
-        obj.drive(16,140);
-    }
-}
+//         obj.drive(16,140);
+//     }
+// }
 
 
 
@@ -80,7 +80,8 @@ public class LambdaExpre {
 
 // interface Carr 
 // {
-//     void drive (int avg);
+//     void drive (int avg, String colour);
+    
 
 // }
 
@@ -90,8 +91,8 @@ public class LambdaExpre {
 //         // Car obj = new WagonR();
 
 //         // Carr obj = (int avg) -> System.out.println("Driving...."+avg);
-//         Carr obj = avg -> System.out.println("Driving...."+avg);
+//         Carr obj = (avg, colour) -> System.out.println("Driving...."+avg+" "+colour);
             
-//         obj.drive(16);
+//         obj.drive(16,"white");
 //     }
 // }
