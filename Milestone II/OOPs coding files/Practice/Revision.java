@@ -1,4 +1,8 @@
-package PracticeField;
+package Practice;
+
+
+
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
 /**
  * //INHERITANCE
@@ -92,10 +96,14 @@ package PracticeField;
 //     }    
 // }
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+
+/**
+ * // MULTI-LEVEL INHERITANCE
+ */
 
 
-// MULTI-LEVEL INHERITANCE
+
 
 // class Animal
 // {
@@ -122,13 +130,19 @@ package PracticeField;
 //         obj.eat();
 //     }
 // }
-// // ----------------------------------------------------------------------------------------------------------------------------------
+
+
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+
+
+/**
+ * // HERERARCHICAL INHERITANCE
+ * // ONE PARENT MANY CHILD
+ */
 
 
 
 
-// HERERARCHICAL INHERITANCE
-// ONE PARENT MANY CHILD
 
 // class Animal
 // {
@@ -156,12 +170,17 @@ package PracticeField;
 //     }
 // }
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-//MULTIPLE LEVEL INHERITANCE (NOT ALLOWED IN JAVA)
-// AS JAVA IS OOPs LIKE IN THE REAL WORLD ONE CHILD CAN HAVE ONLY ONE PARENT SO THIS IS ALSO HAPPENING IN JAVA
-// THIS IS WHY MULTIPLE INHERITANCE NOT ALLOWED
-// BUT THIS PROBLEM SOLVED IN INTERFACE (NEXT LECTURE)
+/**
+ * //MULTIPLE LEVEL INHERITANCE (NOT ALLOWED IN JAVA)
+ * // AS JAVA IS OOPs LIKE IN THE REAL WORLD ONE CHILD CAN HAVE ONLY ONE PARENT SO THIS IS ALSO HAPPENING IN JAVA
+ * // THIS IS WHY MULTIPLE INHERITANCE NOT ALLOWED
+ * // BUT THIS PROBLEM SOLVED IN INTERFACE (NEXT LECTURE)
+ */
+
+
+
  
 
 // class Lion
@@ -234,14 +253,17 @@ package PracticeField;
  * // INHERITED
  * // OVERRIDEN
  * // SPECIALIZED
+ *
+ *
+ *      //OVERRIDEN METHOD IS NOTHING BUT THE CUSTOMIZED METHOD OF HIS PARENT i.e
+ *      // THE MODIFIED BEHAVIOUR
  */
 
 
 
 
 
-//OVERRIDEN METHOD IS NOTHING BUT THE CUSTOMIZED METHOD OF HIS PARENT i.e 
-// THE MODIFIED BEHAVIOUR  
+
 
 // class Animal 
 // {

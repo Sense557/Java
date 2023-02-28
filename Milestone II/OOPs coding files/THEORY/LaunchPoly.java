@@ -22,7 +22,6 @@
 //        System.out.println("Cargoplane1 is flying at low");
 //    }
 //
-//
 //}
 //
 //class Passengerplane1 extends Aeroplane1
@@ -37,10 +36,6 @@
 //    }
 //
 //}
-//
-//
-//
-//
 //
 //public class LaunchPoly
 //{
