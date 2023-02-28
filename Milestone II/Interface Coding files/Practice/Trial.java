@@ -2,60 +2,18 @@ package Practice;
 
 
 
-// ✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔✔
-// Need of Interface with Example
-// interface Computer
-// {
-//     public void compileCode();
-// }
-// class Laptop implements Computer
-// {
-//     public void compileCode()
-//     {
-//         System.out.println("You got 5 errors");
-//     }
-// }
-// class Desktop implements Computer
-// {
-//     public void compileCode()
-//     {
-//         System.out.println("You got 5 errors, faster");
-//     }
-// }
-// class Developer
-// { 
-//     void buildApp(Computer lap)
-//     {
-//         System.out.println("Building an app");
-
-//         lap.compileCode();
-//     }    
-// }
-// public class Trial {
-
-//     public static void main(String[] args) {
-//         // Laptop lap = new Laptop();
-//         Computer lap = new Desktop();
-//         Developer dev = new Developer();
-//         dev.buildApp(lap);
-        
-//     }
-// }
-
-
-
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
-
-// what is interface 
-
+/**
+ *  what is interface
+ */
 
 
 // interface A
 // {
 //     int age = 18;      //public static final
-//     void show();        // public abstract 
-    
+//     void show();        // public abstract
+
 // }
 // class B implements A
 // {
@@ -79,7 +37,7 @@ package Practice;
 //         B obj = new B();
 //         obj.show();
 
-        
+
 //     }
 // }
 
@@ -87,13 +45,62 @@ package Practice;
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
-// Interface Implementation
+/**
+ *  Need of Interface with Example
+ */
+
+
+// interface Computer
+// {
+//     public void compileCode();
+// }
+// class Laptop implements Computer
+// {
+//     public void compileCode()
+//     {
+//         System.out.println("You got 5 errors");
+//     }
+// }
+// class Desktop implements Computer
+// {
+//     public void compileCode()
+//     {
+//         System.out.println("You got 5 errors, faster");
+//     }
+// }
+// class Developer
+// {
+//     void buildApp(Computer lap)
+//     {
+//         System.out.println("Building an app");
+
+//         lap.compileCode();
+//     }
+// }
+// public class Trial {
+
+//     public static void main(String[] args) {
+//         // Laptop lap = new Laptop();
+//         Computer lap = new Desktop();
+//         Developer dev = new Developer();
+//         dev.buildApp(lap);
+
+//     }
+// }
+
+
+//✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️
+/**
+ *  Interface Implementation
+ */
+
+
 
 
 // interface A
 // {
 //     int age = 18;      //public static final
-//     void show();        // public abstract 
+//     void show();        // public abstract
 // }
 // interface X
 // {
@@ -140,7 +147,7 @@ package Practice;
 //     default void show()         //default method interface or non-static
 //     {
 //         System.out.println("in show");
-//     }      
+//     }
 //     static void play()          //static method interface
 //     {
 //         System.out.println("Let's Play");
@@ -158,7 +165,7 @@ package Practice;
 //     public static void main(String[] args) {
 
 //         A.play();
-        
+
 //         A obj = new B();
 //         obj.show();
 //         obj.config();
@@ -170,15 +177,14 @@ package Practice;
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
-//Inner Class with the address details
 
 /**
- * Trial
+ * Inner Class with the address details
  */
 
 // class A
 // {
-    
+
 //     Address add;
 //     class Address
 //     {
@@ -211,27 +217,30 @@ package Practice;
 //         A.B obj1 = new A.B();   // accessing static inner class
 //         obj1.showIn();
 
-        
+
 //     }
 // }
 
 
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+/**
+ *  //  annonymous interface
+ *  //  when there is a need to declare and define the interface directly and only once
+ */
 
-//  annonymous interface
-//  when there is a need to declare and define the interface directly and only once
+
 
 // interface A
 // {
-//     void show();     
+//     void show();
 // }
 
 // public class Trial {
 
 //     public static void main(String[] args) {
 
-//         A obj = new A() 
+//         A obj = new A()
 //         {
 //             public void show()
 //             {
@@ -239,21 +248,24 @@ package Practice;
 //             }
 //         };
 //         obj.show();
-        
-//     }    
+
+//     }
 // }
 
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
-//  Lambda Expression
-//  when we need to reduce the code only want to focus on the logic only
-//  you can do it for interface using some expression
+/**
+ * Lambda Expression
+ * when we need to reduce the code only want to focus on the logic only
+ * you can do it for interface using some expression
+ */
+
 
 // // Zero Parameterized interface
 // interface A
 // {
-//     void show();     
+//     void show();
 // }
 
 // public class Trial {
@@ -261,19 +273,23 @@ package Practice;
 //     public static void main(String[] args) {
 
 //         A obj = () -> System.out.println("in show");
-           
+
 //         obj.show();
-        
-//     }    
+
+//     }
 // }
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
+/**
+ *  One Parameterized interface
+ */
 
-// one Parameterized interface
+
+
 // interface A
 // {
-//     void show(int age);     
+//     void show(int age);
 // }
 
 // public class Trial {
@@ -281,20 +297,24 @@ package Practice;
 //     public static void main(String[] args) {
 
 //         A obj = (int age) -> System.out.println("in show  "+age);
-           
+
 //         obj.show(20);
-        
-//     }    
+
+//     }
 // }
 
 
 // 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
 
+/**
+ * two Parameterized interface
+ */
 
-// // two Parameterized interface
+
+
 // interface A
 // {
-//     void show(String name, int age);     
+//     void show(String name, int age);
 // }
 
 // public class Trial {
@@ -302,8 +322,8 @@ package Practice;
 //     public static void main(String[] args) {
 
 //         A obj = (String name, int age) -> System.out.println("in show  "+name+" "+age);
-           
+
 //         obj.show("Alok",20);
-        
-//     }    
+
+//     }
 // }

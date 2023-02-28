@@ -30,8 +30,6 @@
 //
 //    }
 //}
-//
-//
 //class Square
 //{
 //    float length;
@@ -43,24 +41,16 @@
 //        Scanner sc= new Scanner(System.in);
 //        System.out.println("Enter the length of the Squrare: ");
 //        length = sc.nextFloat();
-//
-//
 //    }
 //    void compute ()
 //    {
 //        area = length*length;
-//
 //    }
 //    void show()
 //    {
 //        System.out.println("The area of the Square is: "+area);
-//
 //    }
 //}
-//
-//
-//
-//
 //class circle
 //{
 //    float radius;
@@ -74,29 +64,19 @@
 //        System.out.println("Enter the radius of the circle: ");
 //        radius = sc.nextFloat();
 //
-//
 //        pie = 3.141f;
-//
-//
 //    }
 //    void compute ()
 //    {
 //        area = pie*(radius*radius);
-//
 //    }
 //    void show()
 //    {
 //        System.out.println("The area of the circle is: "+area);
-//
 //    }
 //}
-//
-//
-//
-//
 //public class LaunchApp
 //{
-//
 //    public static void main(String[] args)
 //    {
 //        Rectangle rec = new Rectangle();
@@ -113,6 +93,5 @@
 //        cir.input();
 //        cir.compute();
 //        cir.show();
-//
 //    }
 //}
