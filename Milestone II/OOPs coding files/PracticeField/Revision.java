@@ -1,5 +1,9 @@
 package PracticeField;
-//INHERITANCE
+
+/**
+ * //INHERITANCE
+ */
+
 
 // class Animal 
 // {
@@ -22,9 +26,14 @@ package PracticeField;
 //     }    
 // }
 
-// ----------------------------------------------------------------------------------------------------------------------------------
-// PRIVATE KEYWORD CANNOT BE USED IN INHERITANCE 
-// i.e. PRIVATE CANNOT BE INHERITED
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+
+/**
+ * Private Keyword
+ * PRIVATE KEYWORD CANNOT BE USED IN INHERITANCE
+ * i.e. PRIVATE CANNOT BE INHERITED
+ */
+
 
 // class Animal 
 // {
@@ -47,16 +56,21 @@ package PracticeField;
 //     }    
 // }
 
-// ----------------------------------------------------------------------------------------------------------------------------------
-//TYPES OF INHERITANCE
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+/**
+ * TYPES OF INHERITANCE
+ *      SINGLE LEVEL INHERITANCE
+ *      MULTI LEVEL
+ *      HERERARCHICAL
+ *      MULTIPLE ------------> Not allowed
+ *
+ */
 
-//SINGLE LEVEL INHERITANCE
-//MULTI LEVEL
-//HERERARCHICAL 
-//MULTIPLE 
 
+/**
+ * //SINGLE LEVEL INHERITANCE
+ */
 
-//SINGLE LEVEL INHERITANCE
 // class Animal 
 // {
 //     void eat ()
@@ -179,15 +193,19 @@ package PracticeField;
 // }
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// 🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-// TYPES OF METHODS IN JAVA
-// INHERITED
-// OVERRIDEN
-// SPECIALIZED
+/**
+ * TYPES OF METHODS IN JAVA
+ *      INHERITED METHOD
+ *      OVERRIDEN METHOD
+ *      SPECIALIZED METHOD
+ *
+ *              INHERITED METHOD IS NOTHING BUT THE SINGLE INHERITANCE LIKE i.e
+ *              INHERITED THE BEHAVIOUR OF HIS PARENT AS IT IS
+ */
 
-//INHERITED METHOD IS NOTHING BUT THE SINGLE INHERITANCE LIKE i.e 
-// INHERITED THE BEHAVIOUR OF HIS PARENT AS IT IS
+
 
 // class Animal 
 // {
@@ -210,13 +228,17 @@ package PracticeField;
 //     }    
 // }
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+/**
+ * // TYPES OF METHODS IN JAVA
+ * // INHERITED
+ * // OVERRIDEN
+ * // SPECIALIZED
+ */
 
 
-// TYPES OF METHODS IN JAVA
-// INHERITED
-// OVERRIDEN
-// SPECIALIZED
+
+
 
 //OVERRIDEN METHOD IS NOTHING BUT THE CUSTOMIZED METHOD OF HIS PARENT i.e 
 // THE MODIFIED BEHAVIOUR  
@@ -247,12 +269,17 @@ package PracticeField;
 //         obj.eat();
 //     }    
 // }
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-// // RULES TO OVERRIDE IN INHERITANCE
-//     //CANT REDUCE THE VISIBILITY OF THE CLASS
-//     //DATA TYPE SHOULD BE SAME ---- ELSE ERROR
-//     //PARAMETER SHOULD BE SAME ---- ELSE IT WILL BE CONSIDERED AS METHOD OVERLOADING
+
+/**
+ * RULES TO OVERRIDE IN INHERITANCE
+ * CANT REDUCE THE VISIBILITY OF THE CLASS
+ * DATA TYPE SHOULD BE SAME ---- ELSE ERROR
+ * PARAMETER SHOULD BE SAME ---- ELSE IT WILL BE CONSIDERED AS METHOD OVERLOADING
+ */
+
+
 
     
 
@@ -305,11 +332,15 @@ package PracticeField;
 // }
     
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-//SPECIALIZED METHOD IN INHERITANCE
-//specialized method can also be inherited to its child as it will become parental for its child 
-// we cant use in parent only in polymorphism using downcasting possible
+/**
+ * //SPECIALIZED METHOD IN INHERITANCE
+ * //specialized method can also be inherited to its child as it will become parental for its child
+ * // we cant use in parent only in polymorphism using downcasting possible
+ */
+
+
 // class Animal 
 // {
 //     void eat ()
@@ -357,14 +388,19 @@ package PracticeField;
 
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-// CONSTRUCTOR IN INHERITANCE
-// in inheritance for constructor execution we just neew to create obj only nothing else
-// everything will be done by super() by itself
-// and where there is no super() it is used internally by java
-// internally jvm uses super() to promote constructor chaining in java 
-// super () keyword is used to call the constructor of parent from its child class 
+/**
+ * CONSTRUCTOR IN INHERITANCE
+ *
+ * in inheritance for constructor execution we just neew to create obj only nothing else
+ * // everything will be done by super() by itself
+ * // and where there is no super() it is used internally by java
+ * // internally jvm uses super() to promote constructor chaining in java
+ * // super () keyword is used to call the constructor of parent from its child class
+ */
+
+
 
 
 // class Animal
@@ -414,13 +450,13 @@ package PracticeField;
 // }
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-
-
-//POLYMORPHISM
-
-// EXAMPLE 1
+/**
+ * POLYMORPHISM
+ *
+ *       EXAMPLE 1
+ */
 
 
 
@@ -492,10 +528,12 @@ package PracticeField;
 // }
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
+/**
+ * EXAMPLE 2 (POLYMORPHISM)
+ */
 
-//EXAMPLE 2 (POLYMORPHISM)
 
 // class Animal
 // {
@@ -561,9 +599,12 @@ package PracticeField;
        
 //     }
 // }
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-//Example 3 
+/**
+ * Example 3
+ */
+
 
 // class Animal
 // {
@@ -635,12 +676,17 @@ package PracticeField;
 
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
-//EXAMPLE 4 (abstraction and downcasting at the same time)
-//abstraction just hide unnecessary daata but shows the necessary one
-// reduce the lines of code
-//doing downcasting we can access the specialized method of the child class by parent class
-//
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+
+/**
+ * //EXAMPLE 4 (abstraction and downcasting at the same time)
+ *
+ * //abstraction just hide unnecessary daata but shows the necessary one
+ * // reduce the lines of code
+ * //doing downcasting we can access the specialized method of the child class by parent class
+ */
+
+
 
 // abstract class Animal
 // {
@@ -708,7 +754,7 @@ package PracticeField;
 
 
 
-// ----------------------------------------------------------------------------------------------------------------------------------
+// //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
 //FINAL KEYWORD IN POLYMORPHISM
     //FINAL CLASS --- NOT ALLOWED IN JAVA
@@ -742,5 +788,4 @@ package PracticeField;
 // }
 
 
-
-// -----------------------------------------------JAVA OOPS COMPLETED TILL NOW--------------------------------------------------------
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️------JAVA OOPS COMPLETED TILL NOW----------️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
