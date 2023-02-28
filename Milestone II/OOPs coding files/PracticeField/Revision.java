@@ -756,12 +756,16 @@ package PracticeField;
 
 // //🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
-//FINAL KEYWORD IN POLYMORPHISM
-    //FINAL CLASS --- NOT ALLOWED IN JAVA
-    //FINAL METHOD --- ALLOWED BUT CANT MODIFY
-    //FINAL VARIABLE --- ALLOWED BUT CANT MODIFY
+/**
+ * //FINAL KEYWORD IN POLYMORPHISM
+ *     //FINAL CLASS --- NOT ALLOWED IN JAVA
+ *     //FINAL METHOD --- ALLOWED BUT CANT MODIFY
+ *     //FINAL VARIABLE --- ALLOWED BUT CANT MODIFY
+ */
 
-// final class Animal  //error final class cant have subclass 
+
+
+// final class Animal  //error final class cant have subclass
 // {
 //     final int age = 10; //final variable cant be modified
 //     final void eat ()  //cant override the final method
