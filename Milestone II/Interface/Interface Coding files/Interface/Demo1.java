@@ -1,6 +1,5 @@
 package Interface;
 
-
 interface A
 {
     

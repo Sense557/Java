@@ -1,7 +1,6 @@
 package Interface;
 
-
-interface Car 
+interface Car
 {
     void drive ();
 

@@ -1,4 +1,4 @@
-package Practice;
+
 
 
 
@@ -70,21 +70,21 @@ package Practice;
 // }
 // class Developer
 // {
-//     void buildApp(Computer lap)
+//     void buildApp(Computer computer)
 //     {
 //         System.out.println("Building an app");
-
-//         lap.compileCode();
+//
+//         computer.compileCode();
 //     }
 // }
 // public class Trial {
-
+//
 //     public static void main(String[] args) {
 //         // Laptop lap = new Laptop();
-//         Computer lap = new Desktop();
+//         Computer computer = new Desktop();
 //         Developer dev = new Developer();
-//         dev.buildApp(lap);
-
+//         dev.buildApp(computer);
+//
 //     }
 // }
 
@@ -140,7 +140,7 @@ package Practice;
 /**
  * Java 8 Features
  */
-
+//
 // interface A
 // {
 //     void config();               //Functional method interface
@@ -161,11 +161,11 @@ package Practice;
 //     }
 // }
 // public class Trial {
-
+//
 //     public static void main(String[] args) {
-
+//
 //         A.play();
-
+//
 //         A obj = new B();
 //         obj.show();
 //         obj.config();
@@ -235,11 +235,11 @@ package Practice;
 // {
 //     void show();
 // }
-
+//
 // public class Trial {
-
+//
 //     public static void main(String[] args) {
-
+//
 //         A obj = new A()
 //         {
 //             public void show()
@@ -248,7 +248,7 @@ package Practice;
 //             }
 //         };
 //         obj.show();
-
+//
 //     }
 // }
 
@@ -267,15 +267,15 @@ package Practice;
 // {
 //     void show();
 // }
-
+//
 // public class Trial {
-
+//
 //     public static void main(String[] args) {
-
+//
 //         A obj = () -> System.out.println("in show");
-
+//
 //         obj.show();
-
+//
 //     }
 // }
 

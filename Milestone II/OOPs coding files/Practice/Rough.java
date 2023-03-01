@@ -1,6 +1,6 @@
 package Practice;
 
-//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
+//🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️---INHERITANCE---🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
 /**
  * What is Inheritance ?
@@ -991,7 +991,7 @@ package Practice;
 /**
  *   What is interface?
  *            -a way to implement multiple classes int to one class
- *
+ */
 
 
  //interface A
@@ -1030,57 +1030,60 @@ package Practice;
  *
  *          Example for what is the need of Interface demonstration
  */
-
-class Computer
-{
-    void compileCode()
-    {
-
-    }
-}
-
-class Laptop extends Computer
-{
-    void compileCode()
-    {
-        System.out.println("You got 5 errors");
-    }
-}
-class Desktop extends Computer
-{
-    void compileCode()
-    {
-        System.out.println("You got 5 errors, faster");
-    }
-}
-
-class Developer
-{
-
-//    void buildApp(Laptop laptop)
-//    void buildApp(Desktop desktop)
-    void buildApp(Computer computer)
-    {
-        System.out.println("Building an App");
-//        laptop.compileCode();
-//        desktop.compileCode();
-        computer.compileCode();
-    }
-
-}
-
-public class Rough
-{
-    public static void main(String[] args) {
-//        Laptop laptop = new Laptop();
-//        Desktop desktop = new Desktop();
-        Computer computer = new Computer();
-        Developer dev = new Developer();
-//        dev.buildApp(laptop);
-//        dev.buildApp(desktop);
-        dev.buildApp(computer);
-    }
-}
+//
+//interface Computer
+//{
+//    void compileCode();
+//
+//}
+//
+//class Laptop implements Computer
+//{
+//    public void compileCode()
+//    {
+//        System.out.println("You got 5 errors");
+//    }
+//}
+//class Desktop implements Computer
+//{
+//    public void compileCode()
+//    {
+//        System.out.println("You got 5 errors, faster");
+//    }
+//}
+//
+//class Developer
+//{
+//
+////    void buildApp(Laptop laptop)
+////    void buildApp(Desktop desktop)
+//    void buildApp(Computer computer)
+//    {
+//        System.out.println("Building an App");
+//
+////        laptop.compileCode();
+////        desktop.compileCode();
+//
+//        computer.compileCode();
+//    }
+//
+//}
+//
+//public class Rough
+//{
+//    public static void main(String[] args) {
+////        Laptop laptop = new Laptop();
+////        Desktop desktop = new Desktop();
+//
+//        Computer computer = new Desktop();
+//        Developer dev = new Developer();
+//
+////        dev.buildApp(laptop);
+////        dev.buildApp(desktop);
+//
+//        dev.buildApp(computer);
+//    }
+//}
 
 //🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
 
@@ -1126,3 +1129,266 @@ public class Rough
 //        obj.show();
 //    }
 //}
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  JAVA 8 FEATURES
+ *          -default methods in interface ---> non-static method for interface
+ *              - To call it we need to build a class for it where we have to implement that interface in that
+ *
+ *          -static methods in interface ---> static method for interface
+ *              - No need to build a class for it can directly be called from the main
+ *
+ *          -functional methods in interface ---> (discussed more on lambda class)
+ *              - If any interface allows only one abstract method interface called as functional method interface
+ *              - To make any interface functional above that interface we have to use this annotation
+ *                  -- @FunctionalInterface
+ *                  ex --
+ *                      -java.lang.Runnable
+ *                      -java.lang.Comparable
+ *
+ *                      --(3 TYPES OF FUNCTIONAL METHODS IN INTERFACE)
+ *                          - Single abstract method interface  -- It contains single method  (usage in lambda)
+ *                          - Normal -- It contains multiple methods
+ *                          - Marker -- It contains no methods
+ *
+ */
+
+//interface A
+//{
+////    void show6();
+//    static void show()
+//    {
+//        System.out.println("in A");
+//    }
+//    default void show3()
+//    {
+//        System.out.println("in A3");
+//    }
+//    void show4();
+//}
+//class B implements A
+//{
+//    public void show4()
+//    {
+//        System.out.println("in show4");
+//    }
+//}
+//
+//public class Rough {
+//    public static void main(String[] args) {
+//
+//        A.show();
+//        B obj = new B();
+//        obj.show3();
+//        obj.show4();
+//    }
+//}
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  Inner Class
+ *      -- a class inside another class
+ */
+
+
+//class A
+//{
+//    void show()
+//    {
+//        System.out.println("in outer class A");
+//    }
+//    static class B
+//    {
+//        void show2()
+//        {
+//            System.out.println("in inner class B");
+//        }
+//    }
+//}
+//
+//public class Rough {
+//    public static void main(String[] args) {
+//
+////        calling the outer class A
+//        A obj = new A();
+//        obj.show();
+//
+////        calling the inner class B wrong way
+////        B obj = new B();
+////        obj.show2();
+//
+////        calling the inner class B in the right way (non-static )
+////        A.B obj1 = obj.new B();
+////        obj1.show2();
+//
+////        calling the inner class B in the right way (static )
+//        A.B obj1 = new A.B();
+//        obj1.show2();
+//
+//    }
+//}
+
+
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  Inner Class with address details as well
+ *      --this way we can define Address class in a class with its details separately
+ */
+
+
+//class A
+//{
+//    Address add;
+//    class Address
+//    {
+//        String name;
+//        String city;
+//        int pincode;
+//    }
+//    void show()
+//    {
+//        System.out.println("in outer class A");
+//    }
+//    static class B
+//    {
+//        void show2()
+//        {
+//            System.out.println("in inner class B");
+//        }
+//    }
+//}
+//
+//public class Rough {
+//    public static void main(String[] args) {
+//
+////        calling the outer class A
+//        A obj = new A();
+//        obj.show();
+//
+////        calling the inner class B wrong way
+////        B obj = new B();
+////        obj.show2();
+//
+////        calling the inner class B in the right way (non-static )
+////        A.B obj1 = obj.new B();
+////        obj1.show2();
+//
+////        calling the inner class B in the right way (static )
+//        A.B obj1 = new A.B();
+//        obj1.show2();
+//
+//    }
+//}
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  ANNONOMOUS INTERFACE
+ *      -when there is a need to declare and define the interface directly and only once
+ *      -and after that we have to call that method as well otherwise not work
+ */
+
+//@FunctionalInterface
+//interface A
+//{
+//    void show();
+//
+//}
+//
+//public class Rough {
+//    public static void main(String[] args) {
+//
+//        A obj = new A()
+//        {
+//            public void show()
+//            {
+//                System.out.println("in A");
+//            }
+//        };
+//        obj.show();
+//
+//    }
+//}
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+
+/**
+ *  LAMBDA expression
+ *      -- It is an expression used to reduce the lines of code
+ *      -- powerful expression no need to logic only need to define
+ *      -- it understands of its own
+ *
+ *              --TYPES OF LAMBDA Expression Syntax
+ *                  -No Parameter
+ *                  -One Parameter
+ *                  -Two Parameter
+ *                  -................etc.
+ *
+ */
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+
+/**
+ *  No Parameter Syntax
+ */
+
+
+//interface A
+//{
+//    void show();
+//}
+//public class Rough {
+//    public static void main(String[] args) {
+//        A obj = () -> System.out.println("in show");
+//        obj.show();
+//    }
+//}
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  One Parameter Syntax
+ */
+
+
+//interface A
+//{
+//    void show(int num);
+//}
+//public class Rough {
+//    public static void main(String[] args) {
+//        A obj = (int num) -> System.out.println("in show "+num);
+//        obj.show(20);
+//    }
+//}
+
+
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+
+/**
+ *  Two Parameter Syntax
+ */
+
+
+//interface A
+//{
+//    void show(String name, int num);
+//}
+//public class Rough {
+//    public static void main(String[] args) {
+//        A obj = (String name, int num) -> System.out.println("in show "+name +" "+num);
+//        obj.show("Amar",20);
+//    }
+//}
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕-----COMPLETED INTERFACE & LAMBDA EXPRESSION-------🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕
+//🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕

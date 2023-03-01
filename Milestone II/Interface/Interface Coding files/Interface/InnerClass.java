@@ -1,7 +1,5 @@
 package Interface;
 
-
-
 class Y
 {
     int age;
