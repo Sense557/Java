@@ -327,3 +327,27 @@
 
 //     }
 // }
+
+// 💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡💡
+
+/**
+ * two Parameterized interface
+ */
+
+
+ // Zero Parameterized interface
+ interface A
+ {
+     void show(int a, int b);
+ }
+
+ public class Trial {
+
+     public static void main(String[] args) {
+
+         A res = (a,b) -> System.out.println(a+b);
+         res.show(30,20);
+
+
+     }
+ }
