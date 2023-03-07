@@ -1,4 +1,4 @@
-// import java.util.Scanner;
+ import java.util.Scanner;
 //  🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️--------TRY FINALLY & TRY WITH RESOURCE----------🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 
 /**
@@ -24,24 +24,25 @@
 
 // public class TryFinallyTryWithResource {
 //     public static void main(String[] args) {
-
-//         // try with finally 
+//
+//         // try with finally
+//         Scanner sc = new Scanner(System.in);
 //         try
 //         {
-//             Scanner sc = new Scanner(System.in);
+//
 //             int num = sc.nextInt();
 //             System.out.println(num);
-            
+//
 //         }
-//         catch(Exception e)
-//         {
-//             System.out.println("Enter a number");
-
-//         }
+////         catch(Exception e)
+////         {
+////             System.out.println("Enter a number");
+////
+////         }
 //         finally
 //         {
-
-//             System.out.println("Resource closed");
+//
+//             sc.close();
 //         }
 //     }
 // }
@@ -50,22 +51,24 @@
 //  🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️--------TRY WITH RESOURCE----------🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️🎗️
 /**
  *  Try with resource
+ *      -- updated version of try finally
  */
 
 
-//     public class TryFinallyTryWithResource {
-//         public static void main(String[] args) {
-        
-//         int num = 0;
+     public class TryFinallyTryWithResource {
+         public static void main(String[] args) {
 
-//         //try with resource
-//         try(Scanner sc = new Scanner(System.in))
-//         {
-//             num = sc.nextInt();
-            
-//         }
-//         System.out.println(num);
-    
+         int num = 0;
 
-//     }
-// }
+         //try with resource
+         try(Scanner sc = new Scanner(System.in))
+         {
+             num = sc.nextInt();
+         }
+             System.out.println(num);
+
+         System.out.println("Resource closed");
+
+
+     }
+ }
