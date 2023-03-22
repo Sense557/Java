@@ -34,9 +34,16 @@ import java.util.concurrent.CopyOnWriteArrayList;
 //     }
 // }
 
+// 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+/**
+ *      Fail-Fast and Fail-Safe
+ */
+// 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+
 // ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 /**
- *  Fail-Fast and Fail-Safe
+ *  Fail-Fast 
  */
 // public class index2 
 // {
@@ -67,7 +74,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 //         al.add(200);
 //         al.add(300);
 
-
 //         //Fail-Safe
 //         Iterator itr = al.iterator();
 //         while (itr.hasNext()) 
@@ -76,10 +82,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 //             al.add("PW");
 
 //         }
-
-
 //         System.out.println(al);
-
 //     }
 // }
 
