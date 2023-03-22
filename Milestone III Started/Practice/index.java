@@ -1,6 +1,6 @@
-package Practice;
+// package Practice;
 
-import java.util.*;
+// import java.util.*;
 
 // import java.util.ArrayList;
 
@@ -57,6 +57,10 @@ import java.util.*;
 
 
 // ▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️
+
+/**
+ *      iterating the arraylist using for loop
+ */
 
 // public class index
 // {
