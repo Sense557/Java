@@ -221,4 +221,27 @@ import java.util.*;
 // }
 
 // ▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️▶️
+/**
+ *      PriorityQueue
+ * 
+ *      Note-
+ *      - Indexbased accessing not allowed here
+ *      - front end & back end entry allowed but not from the middle like queue
+ *      - Duplicates are allowed
+ *      - Order of index is preserved
+ *      - Offer()
+ */
 
+
+ public class index {
+ 
+        public static void main(String[] args) {
+                PriorityQueue pq = new PriorityQueue();
+                pq.add(100);
+                pq.add(50);
+                pq.add(500);
+                pq.add(75);
+                System.out.println(pq);
+
+        }
+ }
