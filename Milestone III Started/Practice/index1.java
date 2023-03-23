@@ -1,11 +1,36 @@
 // package Practice;
 
-
 // import java.util.*;
 
-// /**
-//  * Iterator & List Iterator
-//  */
+/**
+ *  Why use Iterator?
+ *      - Data manipulation during iteration can lead to get trapped in an infinite loop
+ *      - To avoid that we use Iterator
+ *      - Then came to the picture fail-fast & fail-safe concept
+ * 
+ *  Iterator & List Iterator
+ * 
+ * 
+ *  Iterator
+ *      - Fail-fast
+ *      - user experience - bad
+ *      - Act like a cursor
+ *      - Prevents us from being trapped in an infinite loop
+ * 
+ *  ListIterator
+ *      - Fail-fast
+ *      - user experience - bad
+ *      - Fetch the value in the reverse order
+ *      - also Prevents us from being trapped in an infinite loop
+ * 
+ *  CopyOnWriteIterator
+ *      - Fail-Safe
+ *      - User Experience - Good
+ *      - also Prevents us from being trapped in an infinite loop
+ */
+
+
+
 // public class index1 
 // {
 

@@ -8,7 +8,7 @@
 // ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 
 /**
- *  Why we are using iterator instead of for loop
+ *  Why we are using Iterator instead of for loop
  *      Note-
  *          using for loop fo iteration and get trapped in infinte loop Problem
  *          to avoid this we use iterator 
@@ -44,7 +44,11 @@
 // ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 /**
  *  Fail-Fast 
+ *      - User Experience Bad
+ *      - as it gives error which can't be handled
  */
+
+
 // public class index2 
 // {
 //     public static void main(String[] args) 
@@ -56,7 +60,6 @@
 
         // System.out.println(al);
 
-        //Fail-fast
         // Iterator itr = al.iterator();
         // while (itr.hasNext()) 
         // {
@@ -67,14 +70,18 @@
 
 
 // ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
-        // Fail-Safe
-        // CopyOnWriteIterator itr = al.CopyOnWriteIterator();
+/**
+ *      Fail Safe
+ *              - User Experience Good
+ *              - error handled
+ */
+
 //         CopyOnWriteArrayList al = new CopyOnWriteArrayList();
 //         al.add(100);
 //         al.add(200);
 //         al.add(300);
 
-//         //Fail-Safe
+
 //         Iterator itr = al.iterator();
 //         while (itr.hasNext()) 
 //         {

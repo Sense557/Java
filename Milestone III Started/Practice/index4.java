@@ -2,13 +2,21 @@
 
 // import java.util.TreeSet;
 
-// /**
-//  *  TreeSet
-//  *      Note-
-//  *          - Duplicates not allowed
-//  *          - Binary Search is fast
-//  *          - Sorted Order
-//  */
+/**
+ *  TreeSet
+ *      Note-
+ *          - Duplicates not allowed
+ *          - Binary Search is fast
+ *          - Follows Binary Search Tree
+ *          - Sorted Order
+ *          - Characters entry not allowed
+ *          - Null value entry also not allowed
+ *          - Ceiling & Floor funda
+ * 
+ *      2 Types of tree
+ *      - Balanced  // 10 50 5 2 6 8 25 3 30 35...
+ *      - Scewed    //10 20 30 40 50 60 70 80...
+ */
 
 
 // public class index4 
@@ -23,6 +31,7 @@
 //         ts.add(30);
 //         ts.add(80);
 //         ts.add(90);
+//         // ts.add("PW");
         
         
 
