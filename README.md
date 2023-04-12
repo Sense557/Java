@@ -1,2 +1,0 @@
-# PW-SKILLS-LAB
-Back-Up for PW-SKILLS-LAB
