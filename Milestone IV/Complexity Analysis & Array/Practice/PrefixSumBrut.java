@@ -1,12 +1,12 @@
-import java.util.Scanner;
+import java.util.*;
 
 /**
- *  
+ *  Brut Force Approach
  */
 
 
-time complexity: O(10^5... m*n)
-space complexity: O(1)
+// time complexity: O(10^5... m*n)
+// space complexity: O(1)
 
 public class PrefixSumBrut 
 {
@@ -63,6 +63,7 @@ public class PrefixSumBrut
         System.out.println("Sum of elements of given rectangle: " +sum);
 
 
+        sc.close();
 
     }
 }
