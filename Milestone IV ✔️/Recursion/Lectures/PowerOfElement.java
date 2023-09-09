@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-public class powerOfElement{
+public class PowerOfElement{
 
     // function definition
     public static int powerFind(int a, int b){
