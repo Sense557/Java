@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class actorialFind {
+class FactorialFind {
     // function definition
     public static int factorialFinding(int n){
         int result = 0;
