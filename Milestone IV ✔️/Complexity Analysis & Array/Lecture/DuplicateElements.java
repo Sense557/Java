@@ -5,7 +5,7 @@
 // Time Complexity: O(n^2)
 // Space Complexity: O(1)
 
-public class Duplicate {
+public class DuplicateElements {
     public static void main(String[] args){
         int[] arr = {2, 3, 3, 6, 6, 9};
         int n = arr.length;
