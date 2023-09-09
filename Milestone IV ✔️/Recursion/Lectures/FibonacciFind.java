@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibonacciFind {
+public class FibonacciFind {
     public static int fibonacciFinding(int n){
         int result = 0;
         // 1. Base case condition
