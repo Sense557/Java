@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class countWays{
+public class CountWays{
     // function definition
     public static int countFind(int n){
         // base case condition
