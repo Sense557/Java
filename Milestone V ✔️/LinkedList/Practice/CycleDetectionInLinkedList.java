@@ -31,6 +31,8 @@ class LinkedList {
         }
     }
 
+    //
+    // implementation of Floyd's Cycle Detection Algorithm
     public boolean hasCycle() {
         if (head == null || head.next == null) {
             return false; // No cycle in an empty list or a list with only one node.
