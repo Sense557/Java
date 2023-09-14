@@ -3,7 +3,10 @@ class NoOfInversionsBrut{
     public static int inversionCount(int arr [], int n){
         int count = 0;
         for(int i = 0; i<n-1; i++){
-            for(int j = 0; j<n; j++){
+            for(int j = i+1; j<n; j++){
+                //Property of inversion
+                // i<j
+                // arr[i] > arr[j]
                 if(arr[i] > arr[j]){
                     count++;
                 }
