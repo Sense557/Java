@@ -6,19 +6,19 @@ import java.util.*;
 import javax.print.attribute.standard.JobHoldUntil;
 
 
-public class jobSechudling {
+public class jobScheduling {
     char id;
     int deadline, profit;
 
-    public jobSechudling(){}
+    public jobScheduling(){}
 
-    public jobSechudling(char id, int deadline, int profit){
+    public jobScheduling(char id, int deadline, int profit){
         this.id = id;
         this.deadline = deadline;
         this.profit = profit;
     }
 
-    void printJobSequence(ArrayList<jobSechudling> arr, int maxDeadline){
+    void printJobSequence(ArrayList<jobScheduling> arr, int maxDeadline){
         //1. Sort the arr in decreasing order of the profit
         // lambda expressions
         // n log n
@@ -50,24 +50,22 @@ public class jobSechudling {
 }
 
     public static void main(String[] args){
-        ArrayList<jobSechudling> arr = new ArrayList<>();
-        arr.add(new jobSechudling('1', 5, 55));
-        arr.add(new jobSechudling('2', 2, 65));
-        arr.add(new jobSechudling('3', 7, 75));
-        arr.add(new jobSechudling('4', 3, 60));
-        arr.add(new jobSechudling('5', 2, 70));
-        arr.add(new jobSechudling('6', 1, 50));
-        arr.add(new jobSechudling('7', 4, 85));
-        arr.add(new jobSechudling('8', 5, 68));
-        arr.add(new jobSechudling('9', 3, 45));
+        ArrayList<jobScheduling> arr = new ArrayList<>();
+        arr.add(new jobScheduling('1', 5, 55));
+        arr.add(new jobScheduling('2', 2, 65));
+        arr.add(new jobScheduling('3', 7, 75));
+        arr.add(new jobScheduling('4', 3, 60));
+        arr.add(new jobScheduling('5', 2, 70));
+        arr.add(new jobScheduling('6', 1, 50));
+        arr.add(new jobScheduling('7', 4, 85));
+        arr.add(new jobScheduling('8', 5, 68));
+        arr.add(new jobScheduling('9', 3, 45));
 
         System.out.println("Job Sequence order to get the maximum profit is: ");
 
-        jobSechudling job = new jobSechudling();
+        jobScheduling job = new jobScheduling();
 
         job.printJobSequence(arr, 7);
 
     }
-
-    
 }
