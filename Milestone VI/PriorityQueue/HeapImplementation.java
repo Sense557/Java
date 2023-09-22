@@ -1,4 +1,4 @@
-public class Heap {
+public class HeapImplementation {
     static int size = 0;
     static int[] heap = new int[100];
     
