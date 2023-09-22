@@ -15,16 +15,30 @@ public class HeapImplementation {
         int popped = heap[0];
         heap[0] = heap[size-1];
         size--;
-        int i =0;
-        while(i < (size-1)/2){
-            if(heap[i]>heap[2*i +1] || heap[i]>heap[2*i+2]){
-                int minimum =(heap[2*i+1] < heap[2*i +2]) ? 2*i+1 :2*i +2 ;
-                swap(i,minimum);
+        int i = 0;
+        while(i < size/2){
+            int leftChild = 2 * i + 1;
+            int rightChild = 2 * i + 2;
+            int smallest = i;
+    
+            if (leftChild < size && heap[leftChild] < heap[smallest]) {
+                smallest = leftChild;
+            }
+    
+            if (rightChild < size && heap[rightChild] < heap[smallest]) {
+                smallest = rightChild;
+            }
+    
+            if (smallest != i) {
+                swap(i, smallest);
+                i = smallest;
+            } else {
+                break;
             }
         }
         return popped;
-        
     }
+    
     public static int getMin(){
         return heap[0];
     }
@@ -43,9 +57,9 @@ public class HeapImplementation {
         insert(10);
         insert(8);
         insert(6);
-        print();
+        // print();
         insert(7);
-        print();
+        // print();
         System.out.println("Min element :"+getMin());
         System.out.println("Deleted element:"+delete());
         print();
