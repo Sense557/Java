@@ -1,0 +1,39 @@
+What is programming language?
+A programming language is a set of instructions that a computer can understand and execute. It is used to write software, scripts, and algorithms that can be run on a computer. Examples of programming languages include C++, Java, Python, and JavaScript.
+Why do we need a programming language?
+To instruct computers to perform specific tasks: Programming languages provide a way for humans to communicate with computers and instruct them to perform specific tasks such as calculations, data manipulation, and automated processes.
+To develop software: Programming languages are used to write the code that makes up software applications. These languages provide a set of tools and syntax that developers can use to create programs that run on a computer.
+To create reusable and maintainable code: Programming languages allow developers to write code that is organized, readable, and easy to maintain. This makes it easier for other developers to understand and modify the code, and for the software to be updated and maintained over time.
+To automate repetitive tasks: Programming languages allow developers to automate repetitive tasks that would be difficult or impossible to do manually. This can save time and increase efficiency in a variety of fields such as finance, manufacturing and research.
+To solve complex problems: Programming languages allow developers to express complex algorithms and mathematical models, which can be used to solve a wide range of problems in fields such as science, engineering, and finance.
+
+What are the features of java ?
+Java is a popular, general-purpose programming language that is designed to be platform-independent. Some of the key features of Java include:
+Object-Oriented: Java is an object-oriented programming language, which means it is based on the concept of "objects" that have properties and methods. This makes it easy for developers to model real-world problems and create reusable code.
+Platform-Independent: Java code is compiled to an intermediate form called bytecode, which can be run on any platform that has a Java Virtual Machine (JVM) installed. This makes it easy to write code that runs on multiple platforms without modification.
+Secure: Java is designed to be secure, with features such as memory management and type checking that help prevent common security vulnerabilities.
+Robust: Java has a strong type checking system and an exception handling mechanism that helps ensure that code is robust and reliable.
+Concurrent: Java has built-in support for concurrent programming, which makes it easy to write programs that can run multiple tasks simultaneously.
+High-Performance: Java has been designed to offer high performance and its JIT compiler can optimize the byte code to machine code at runtime.
+Rich API: Java includes a large, well-documented API that provides a wide range of functionality for tasks such as database access, networking, and GUI development.
+Community Support: Java has a large and active community of developers who contribute to the language, create libraries and tools, and provide support to each other
+
+What is an object?
+In the Java programming language, an object is an instance of a class. An object has state (represented by its fields) and behavior (represented by its methods). Objects can interact with each other through method calls and the sharing of data. Objects are also known as instances in some programming languages.
+What is a class?
+In the Java programming language, a class is a template or blueprint for creating objects. It defines the properties (fields) and methods that an object of the class will have. A class is a logical construct, and an object is a physical construct. A class can be used to create multiple objects, each with their own state and behavior. Classes can also inherit properties and methods from other classes through inheritance.
+Explain about the main() method in java?
+In the Java programming language, the main method is the entry point of a program. It is the method that is executed when the program starts. The main method is defined as a static method with the following signature:
+public static void main(String[] args)
+The public keyword means that the method can be called by any code. The static keyword means that the method can be called without creating an instance of the class. The void keyword means that the method does not return a value. The main method takes an array of strings as an argument, which can be used to pass command-line arguments to the program.
+The main method is where the execution of the program starts, and it is where the code that defines the behavior of the program is written. The main method will be executed first when the program runs.
+For example:
+
+
+public class Main { public static void main(String[] args) 
+{
+{ System.out.println("Hello World!");
+ } 
+}
+In this example, the main method calls the println method of the System.out object to print the string "Hello World!" to the console.
+
