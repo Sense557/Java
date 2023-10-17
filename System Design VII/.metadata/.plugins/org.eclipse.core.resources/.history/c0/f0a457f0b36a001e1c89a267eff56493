@@ -1,0 +1,29 @@
+package com.pwskills.HibDemo;
+
+//import org.hibernate.Transaction; // Changed import statement
+
+import org.hibernate.cfg.Configuration;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Student stud = null;
+    
+        Configuration configuration = new Configuration().configure().addAnnotatedClass(Student.class);
+        SessionFactory sessionFactory = configuration.buildSessionFactory();
+        Session session = sessionFactory.openSession();
+        
+
+        stud = session.get(Student.class, 101); 
+        
+        System.out.println(stud);
+        
+    }
+}

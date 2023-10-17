@@ -1,0 +1,19 @@
+package com.pwskills.HibDemo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Student stud = new Student();
+        stud.setRollno(101);
+        stud.setMarks(85);
+        stud.setName("Shakti");
+        
+        System.out.println(stud);
+        
+    }
+}

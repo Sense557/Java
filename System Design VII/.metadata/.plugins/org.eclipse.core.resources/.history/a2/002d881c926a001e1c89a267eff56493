@@ -1,0 +1,28 @@
+package com.pwskills.HibDemo;
+
+import org.hibernate.cfg.Configuration;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Student stud = new Student();
+        stud.setRollno(101);
+        stud.setMarks(85);
+        stud.setName("Shakti");
+        
+        Configuration configuration = new Configuration();
+        SessionFactory sessionFactory = configuration.buildSessionFactory();
+        Session session = sessionFactory.openSession();
+        session.save(stud);
+        
+        System.out.println(stud);
+        
+    }
+}
